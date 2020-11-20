@@ -7,6 +7,9 @@
  * - May you find forgiveness for yourself and forgive others.
  * - May you share freely, never taking more than you give. */
 
+#ifdef __cplusplus
+extern "c"{
+#endif //__cplusplus
 #pragma once
 
 typedef struct {
@@ -59,3 +62,8 @@ typedef struct {
  * modified to hold only the positional arguments after the parsing process.
  * The third parameter is a list created with OPTIONS(...). */
 extern int parse_options(int *argc, char ***argv, option_t **options);
+
+#ifdef __cplusplus
+}
+#endif
+  
