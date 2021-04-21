@@ -2,6 +2,8 @@
 
 Easy option parsing.
 
+* NOTE. This is the edited version for my own use. For the original version with only cpp guards, see the `original` branch. *
+
 ## License
 
 > The author disclaims copyright to this source code.  In place of
